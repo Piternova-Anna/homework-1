@@ -1,12 +1,11 @@
-﻿Console.WriteLine("введите число");
-double a = double.Parse(Console.ReadLine());
-
-If(a%2=0);
+﻿// принимает число и выдает является ли оно четным;
+Console.WriteLine("введите число");
+int a = double.Parse(Console.ReadLine());
+if (a%2=0)
 {
-    Console.WriteLine("Четное число")
-};
-
-else
+  Console.WriteLine("Четное число");
+}
+  else
   {
-    Console.WriteLine("нечетное число")
-  };
+    Console.WriteLine("нечетное число");
+  }
